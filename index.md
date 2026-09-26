@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: " 3N2B"
-  text: "blogs"
-  tagline: My great project tagline
+  name: " 三年二班"
+  text: "我的博客"
+  tagline: My great project
   actions:
     - theme: brand
       text: Markdown Examples
