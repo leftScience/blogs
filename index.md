@@ -2,16 +2,13 @@
 layout: home
 
 hero:
-  name: Axiom
-  text: 公理之上的技术笔记
-  tagline: Java、Golang 与 Rust。把运行时、并发和工程边界，写成下次打开还能直接用的文档。
+  name: LeftScience
+  text: 我的技术笔记分享
+  tagline: Java、Golang 与 Rust三种语言的学习笔记，不定期更新
   actions:
     - theme: brand
       text: 开始阅读
       link: /java/
-    - theme: alt
-      text: 为什么叫 Axiom
-      link: /#about
 
 features:
   - icon: "01"
@@ -31,8 +28,3 @@ features:
     linkText: 阅读
 ---
 
-## 为什么叫 Axiom {#about}
-
-Axiom 是公理：不必再往下证明的那一层判断。
-
-这个站按这个标准来写。三个专栏分开存放，主题各自独立，只在一件事上互相照见——程序真正跑起来的时候，发生了什么。

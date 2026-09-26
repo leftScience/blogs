@@ -1,6 +1,6 @@
 ---
 title: Java
-description: JVM 内存、并发与服务端运行时。Axiom 的 Java 专栏。
+description: JVM 内存、并发与服务端运行时。LeftScience 的 Java 专栏。
 ---
 
 # Java

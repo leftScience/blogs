@@ -1,6 +1,6 @@
 ---
 title: Golang
-description: 调度、并发与标准库里的工程习惯。Axiom 的 Golang 专栏。
+description: 调度、并发与标准库里的工程习惯。LeftScience 的 Golang 专栏。
 ---
 
 # Golang

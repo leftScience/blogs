@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Axiom',
+  title: 'LeftScience',
   description: 'Java、Golang 与 Rust 的工程笔记。运行时、并发与工程边界。',
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
@@ -98,8 +98,12 @@ export default defineConfig({
 
     footer: {
       message: 'Java · Golang · Rust',
-      copyright: '© 2026 Axiom'
+      copyright: '© 2026 LeftScience'
     },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/leftScience/blogs' }
+    ],
 
     editLink: {
       pattern: 'https://github.com/leftScience/blogs/edit/main/:path',

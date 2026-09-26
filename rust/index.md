@@ -1,6 +1,6 @@
 ---
 title: Rust
-description: 所有权、类型与异步。Axiom 的 Rust 专栏。
+description: 所有权、类型与异步。LeftScience 的 Rust 专栏。
 ---
 
 # Rust
