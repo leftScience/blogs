@@ -18,6 +18,17 @@ export default defineConfig(
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
         ['meta', { name: 'theme-color', content: '#f7f5f1' }]
       ],
+      vite: {
+        server: {
+          proxy: {
+            '/media': {
+              target: 'http://catx.top:19000',
+              changeOrigin: true,
+              rewrite: (path) => path.replace(/^\/media/, '')
+            }
+          }
+        }
+      },
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
