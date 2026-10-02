@@ -18,6 +18,13 @@ export default defineConfig(
         ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
         ['meta', { name: 'theme-color', content: '#f7f5f1' }]
       ],
+      vue: {
+        template: {
+          transformAssetUrls: {
+            includeAbsolute: false
+          }
+        }
+      },
       vite: {
         server: {
           proxy: {
